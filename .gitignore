@@ -1,0 +1,33 @@
+# Ignore virtual environment
+venv/
+Venv/
+ENV/
+env/
+
+# Ignore model files (optional, since they are large)
+*.h5
+*.pb
+*.onnx
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Streamlit cache (optional)
+.streamlit/
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore VSCode settings (optional)
+.vscode/
+
+# Ignore Jupyter Notebook checkpoints (if using)
+.ipynb_checkpoints/
